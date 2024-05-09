@@ -8,10 +8,10 @@ class Song {
 const library = []
 const genres = ["Rock", "Pop", "Hip Hop", "Jazz", "Electronic"];
 for (let i = 0; i < 20; i++) {
-    const randomName = `Song${i+1}`;
-    const randomGenre = genres[Math.floor(Math.random() * genres.length)];
-    library.push(new Song(randomName, randomGenre));
-    library.push(new Song(randomName, randomGenre));  
+  const randomName = `Song${i + 1}`;
+  const randomGenre = genres[Math.floor(Math.random() * genres.length)];
+  library.push(new Song(randomName, randomGenre));
+  library.push(new Song(randomName, randomGenre));
 }
 
 console.log(library);
